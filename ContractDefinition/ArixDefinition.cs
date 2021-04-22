@@ -13,7 +13,6 @@ using System.Threading;
 namespace Arix.Contracts.Arix.ContractDefinition
 {
 
-
     public partial class ArixDeployment : ArixDeploymentBase
     {
         public ArixDeployment() : base(BYTECODE) { }
