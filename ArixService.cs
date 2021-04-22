@@ -54,7 +54,7 @@ namespace Arix.Contracts.Arix
                 rewardCoefficientsOfFunction.StakeAddress = stakeAddress;
                 rewardCoefficientsOfFunction.StakeStartTime = stakeStartTime;
                 rewardCoefficientsOfFunction.RewardTime = rewardTime;
-            
+ 
             return ContractHandler.QueryAsync<RewardCoefficientsOfFunction, BigInteger>(rewardCoefficientsOfFunction, blockParameter);
         }
 
